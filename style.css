@@ -10,6 +10,19 @@ body {
     background-color: black;
 }
 
+body.temaclaro {
+    background-color: #FFFFFF;
+}
+
+.botao-tema {
+    position: absolute;
+    margin: 0 0 500px 260px;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: cyan;
+}
+
 main {
     width: 340px;
     background: black;
@@ -17,6 +30,10 @@ main {
     margin: 10px auto 40px;
     padding: 34px 24px 23px;
     border: 1px solid cyan;
+}
+
+main.temaclaro {
+    background-color: rgb(227, 224, 219);
 }
 
 label {
@@ -57,7 +74,7 @@ button {
     box-shadow: 0 0 5px cyan, 0 0 25px cyan;
 }
 
-button:hover {
+button.convert-button:hover {
     box-shadow: 0 0 5px cyan,
         0 0 25px cyan, 0 0 50px cyan,
         0 0 100px cyan, 0 0 200px cyan;
@@ -90,9 +107,9 @@ section {
     font-size: 14px;
 }
 
-.currency-value {
+.currency-value,
+.currency-value-to-convert {
     color: cyan;
     font-weight: 700;
     font-size: 20px;
-
 }
